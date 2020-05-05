@@ -4,13 +4,10 @@ import mongoose from "mongoose";
 import express from "express";
 import routes from "./routes";
 
-mongoose.connect(
-  `mongodb+srv://kevin:${process.env.MONGOOSE_PASSWORD}@clusterlinkapi-erqjs.mongodb.net/test?retryWrites=true&w=majority`,
-  {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  }
-);
+mongoose.connect(`${process.env.MONGOOSE}`, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+});
 
 class App {
   constructor() {

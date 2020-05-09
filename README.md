@@ -1,6 +1,6 @@
 # Challenge for LinkApi
 
-In this challenge i make a RESTFull API with Node JS. This API makes an integration between [Bling](http://bling.com.br/) and [Pipedrive](https://pipedrive.com/).
+In this challenge I make a RESTFull API with Node JS. This API makes an integration between [Bling](http://bling.com.br/) and [Pipedrive](https://pipedrive.com/).
 
 # Required
 
